@@ -86,7 +86,7 @@ The system consists of:
 1. Clone this repository or download it:
 
 ```bash
-git clone <repo_url>
+git clone https://github.com/AlanGaleza/Crypto_Trend_Analyzer_Agents.git
 cd CryptoApp
 (Optional) Create and activate virtual environment
 bash
