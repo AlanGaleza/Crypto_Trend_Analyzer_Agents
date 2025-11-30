@@ -82,6 +82,22 @@ The system consists of:
 
 ---
 
+## Usage
+- **Run Full Pipeline:** Retrieves latest news about Bitcoin and Ethereum, analyzes sentiment, and summarizes trends.
+- **Query Previous Results:** Use the test_load_memory_agent (user agent) with load_memory tool to query trends from the session.
+
+### Example Output
+```json
+{
+  "Bitcoin_trend": "bullish",
+  "Ethereum_trend": "neutral",
+  "explanation": {
+    "Bitcoin": "Most posts are positive today.",
+    "Ethereum": "Mixed posts; no clear trend."
+  }
+}
+```
+
 ## Installation & Setup
 
 1. Clone this repository or download it:
