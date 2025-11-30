@@ -1,4 +1,5 @@
 # Crypto Trend Analyzer using Multi-Agent Pipelines
+<img src="resources/images/AIImageCrypto_Trend_Analyzer.png" width="200">
 
 ## Subtitle
 Predicting Bitcoin and Ethereum trends using AI agents with session-based memory.
