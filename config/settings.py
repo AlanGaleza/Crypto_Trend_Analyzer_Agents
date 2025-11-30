@@ -10,6 +10,7 @@ os.environ["GOOGLE_API_KEY"] = os.environ.get("GOOGLE_API_KEY", DEFAULT_GOOGLE_A
 APP_NAME = "agents"
 USER_ID = "cryptoUser"
 SESSION_ID = "cryptoSession"
+LLM = "gemini-2.5-flash-lite"
 
 retry_config = types.HttpRetryOptions(
     attempts=5,
