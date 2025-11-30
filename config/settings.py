@@ -4,11 +4,12 @@ from google.genai import types
 # Environment & retry config
 # ==========================================
 
-DEFAULT_GOOGLE_API_KEY = ""
+DEFAULT_GOOGLE_API_KEY=""
 os.environ["GOOGLE_API_KEY"] = os.environ.get("GOOGLE_API_KEY", DEFAULT_GOOGLE_API_KEY)
 
-APP_NAME = "cryptApp"
+APP_NAME = "agents"
 USER_ID = "cryptoUser"
+SESSION_ID = "cryptoSession"
 
 retry_config = types.HttpRetryOptions(
     attempts=5,
