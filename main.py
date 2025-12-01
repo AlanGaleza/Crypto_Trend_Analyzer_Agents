@@ -39,18 +39,6 @@ async def main1():
     )
     print("\nFINAL SUMMARY WITH SESSION:\n", response)
 
-    # Create a new runner with the updated cryptoApp
-    test_load_memory_runner = Runner(
-        agent=test_load_memory_agent,
-        app_name=APP_NAME,
-        session_service=session_service,
-        memory_service=memory_service,
-    )
-
-    test_load_memory_runner = await runner.run_debug(
-        "What is today's Bitcoin_trend"
-    )
-
 async def main():
     # Create a session
     session = await session_service.create_session(
